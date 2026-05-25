@@ -1,0 +1,45 @@
+@import url(tokens-perfil.css);
+body {
+    background-color: var(--color-fondo);
+    font-family: var(--font-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.tarjeta {
+    background: white;
+    padding: 2rem; 
+    border-radius: var(--radio-borde);
+    box-shadow: var(--sombra-tarjeta);
+    width: 30ch;    
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-10px);
+}
+
+.avatar {
+    width: 50%; 
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.btn-accion {
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-accion:hover {
+    background-color: #8983f3;
+}
